@@ -1,0 +1,66 @@
+.map {
+    width: 100%;
+    height: 100vh;
+}
+
+.coordinancesPlc {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: #00000063;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.buttonEdit {
+    position: absolute;
+    z-index: 5000;
+    bottom: 104px;
+    left: 0;
+    background: #c7c1c1ba;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.buttonEdit:hover {
+    background: #2f74ccb3;
+}
+
+.filterPlc {
+    height: 90px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -240px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: #00000063;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 16px;
+    transition: all .5s ease-in-out;
+}
+
+.btn {
+    
+    border-width: 0;
+    outline: none;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #57615b;
+    color: #ecf0f1;
+    transition: background-color .3s;
+}
